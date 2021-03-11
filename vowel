@@ -1,0 +1,26 @@
+string=input("Enter the string=")
+vowels=[]
+count1=count2=count3=count4=count5=0
+for i in string:
+    if(i=='a'or i=='A'):
+            if count1==0:
+                vowels.append('A')
+            count1+=1
+    if(i=='e'or i=='E'):
+            if count2==0:
+                vowels.append('E')
+            count2+=1
+    if(i=='i'or i=='I'):
+            if count3==0:
+                vowels.append('I')
+            count3+=1
+    if(i=='o'or i=='O'):
+            if count4==0:
+                vowels.append('O')
+            count4+=1
+    if(i=='u'or i=='U'):
+            if count5==0:
+                vowels.append('U')
+            count5+=1
+print("Vowels in sentence:-",vowels)
+print("each vowels repeated as:-",[count1,count2,count3,count4,count5])
